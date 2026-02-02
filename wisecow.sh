@@ -18,6 +18,7 @@ handleRequest() {
 
   cat <<EOF >$RSPFILE
 HTTP/1.1 200
+Content-Type: text/html; charset=utf-8
 
 
 <pre>$(cowsay $mod)</pre>
