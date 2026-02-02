@@ -10,3 +10,8 @@ Set the Discord webhook URL as an environment variable:
 ```bash
 export DISCORD_WEBHOOK_NOTIFICATION_URL="https://discord.com/api/webhooks/..."
 ```
+
+Install requirements
+```bash
+pip install -r requirements.txt
+```
