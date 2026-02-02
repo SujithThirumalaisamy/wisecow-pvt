@@ -15,3 +15,4 @@ Install requirements
 ```bash
 pip install -r requirements.txt
 ```
+<img width="802" height="232" alt="image" src="https://github.com/user-attachments/assets/64c5ccc2-1115-4612-8c1c-5792a8ca1f48" />
