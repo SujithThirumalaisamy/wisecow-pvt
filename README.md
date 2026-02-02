@@ -1,5 +1,7 @@
 # Cow wisdom web server
 
+> Manifests are maintained in `sujiththirumalaisamy/kubecorner` as its my manifest project which I have use for my ArgoCD Deployments. I already have this same setup in my portfolio repo `sujiththirumalaisamy/cv.me` <br>
+> Also the dns `wisecow.isujith.dev` is managed in `sujiththirumalaisamy/homelab/terraform/cloudflare/dns.tf` with terraform cloud state for the dns resource via terraform infra provisioning
 ## Prerequisites
 
 ```
