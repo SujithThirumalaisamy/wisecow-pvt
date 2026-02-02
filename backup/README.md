@@ -14,3 +14,4 @@ SOURCE_DIR="./directory-to-backup"
 R2_ENDPOINT="https://<your-r2-endpoint>/"
 AWS_PROFILE="default"
 ````
+<img width="1213" height="613" alt="image" src="https://github.com/user-attachments/assets/d9085e4e-5ba7-4b5b-a80d-042b1d1b35ba" />
