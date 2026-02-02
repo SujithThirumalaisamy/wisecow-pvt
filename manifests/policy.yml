@@ -1,0 +1,31 @@
+# apiVersion: security.kubearmor.com/v1
+# kind: KubeArmorPolicy
+# metadata:
+#   name: allow-fortune-cowsay
+# spec:
+#   selector:
+#     matchLabels:
+#       app: wiseco
+#   file:
+#     matchDirectories:
+#     - dir: /app/
+#       recursive: true
+#   process:
+#     matchPaths:
+#     - path: /usr/games/cowsay
+#   action:
+#     Allow
+---
+apiVersion: security.kubearmor.com/v1
+kind: KubeArmorPolicy
+metadata:
+  name: block-fortune
+spec:
+  selector:
+    matchLabels:
+      app: wiseco
+  process:
+    matchPaths:
+    - path: /usr/games/fortune
+  action:
+    Block

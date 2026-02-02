@@ -14,14 +14,14 @@ kind: Ingress
 metadata:
   name: wisecow-ingress
   annotations:
-    cert-manager.io/cluster-issuer: letsencrypt-prod
+    cert-manager.io/cluster-issuer: cloudflare-issuer
 spec:
   tls:
     - hosts:
         - wisecow.isujith.dev
       secretName: wisecow-cert
   rules:
-    - host: wisecow.isujith.dev
+    - host: wisecow.home.isujith.dev
       http:
         paths:
           - path: /
