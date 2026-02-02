@@ -3,7 +3,7 @@
 ## Prerequisites
 
 ```
-sudo apt install fortune-mod cowsay -y
+sudo apt install fortune-mod fortunes cowsay -y
 ```
 
 ## How to use?
